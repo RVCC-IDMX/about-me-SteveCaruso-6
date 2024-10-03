@@ -9,7 +9,11 @@ header {
 h1,h2,h3,h4,h5,h6 {
     font-family: Oswald, Impact, sans-serif;
     font-size:300%;
+    text-align: center;
 }
+
+/* Hero */
+
 #hero, footer {
     text-align:center;
     background-color: #5c522e;
@@ -21,6 +25,15 @@ h1,h2,h3,h4,h5,h6 {
 #hero img {
     width:250px;
 }
+
+/* Bio */
+
 #bio {
     text-align: center;
+}
+
+/* Hobbies */
+
+#hobbies ul li:nth-child(even) {
+    color:#2d3586;
 }
