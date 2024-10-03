@@ -11,6 +11,9 @@ h1,h2,h3,h4,h5,h6 {
     font-size:300%;
     text-align: center;
 }
+img {
+    max-width: 100%;
+}
 
 /* Hero */
 
@@ -36,4 +39,16 @@ h1,h2,h3,h4,h5,h6 {
 
 #hobbies ul li:nth-child(even) {
     color:#2d3586;
+}
+
+/* Gallery */
+
+#gallery {
+    border:10px outset #9c8227;
+    border-radius:40px;
+    text-align:center;
+}
+#gallery hr {
+    border:none;
+    border-top: 10px outset #9c8227;
 }
