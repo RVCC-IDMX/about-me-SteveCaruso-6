@@ -43,12 +43,44 @@ img {
 
 /* Gallery */
 
-#gallery {
+#gallery, #lit {
     border:10px outset #9c8227;
     border-radius:40px;
     text-align:center;
+    margin-bottom:2em;
 }
 #gallery hr {
     border:none;
     border-top: 10px outset #9c8227;
+}
+
+/* Article */
+
+#lit {
+    text-align:justify;
+}
+#lit div {
+    padding:2em;
+    max-width:40rem;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+/* Dropcaps */
+
+#lit p:first-letter {
+    color:#dbac00;
+    background-color: #2d3586;
+    background-image:radial-gradient(#2d3586,#000);
+    text-shadow: 0px 0px 3px #ffffff;
+    float:left;
+    font-size:3.5em;
+    border:5px double #9c8227;
+    margin-right:.5ex;
+    line-height:100%;
+    border-radius:5px;
+    padding:.1ex;
+}
+#lit p {
+    clear:both;
 }
